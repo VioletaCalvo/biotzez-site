@@ -21,16 +21,16 @@ function initMap() {
   };
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 11,
-    center: otro
-    // mapTypeId: 'terrain'
+    center: zentroa,
+    scrollwheel: false,
+    scaleControl: false,
+    streetViewControl: false,
+    fullscreenControl: false
   });
   var marker = new google.maps.Marker({
     position: urruna,
     animation: google.maps.Animation.BOUNCE,
-    map: map,
-    scaleControl: false,
-    streetViewControl: false,
-    fullscreenControl: false
+    map: map
   });
   // Add the circle for this city to the map.
   var cityCircle = new google.maps.Circle({
