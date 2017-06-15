@@ -6,4 +6,4 @@ Disallow: /public/
 
 Disallow:
 
-Sitemap: https://www.biotzez.eus/sitemap.xml
+Sitemap: http://www.biotzez.eus/sitemap.xml
